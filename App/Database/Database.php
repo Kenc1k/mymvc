@@ -7,9 +7,9 @@ use PDOException;
 
 class Database {
     private static $host = 'localhost';
-    private static $db_name = 'lesson_16_db';
+    private static $db_name = 'liblary_db';
     private static $username = 'root';
-    private static $password = 'Cyberboy@5';
+    private static $password = 'Str0ngP@ssw0rd!';
     private static $conn;
 
     public static function connect() {
